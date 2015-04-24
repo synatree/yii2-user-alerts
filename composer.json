@@ -1,0 +1,21 @@
+{
+    "name": "synatree/yii2-user-alerts",
+    "description": "An extension that allows messages to be broadcast to users based on their role, including functionality to dismiss messages after they've been read.",
+    "type": "yii2-extension",
+    "keywords": ["yii2"," user"," growl"," alerts"," ajax"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "David Baltusavich",
+            "email": "david@synatree.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "synatree\\useralerts\\": ""
+        }
+    }
+}
